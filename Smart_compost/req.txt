@@ -1,0 +1,21 @@
+Components:
+Oxygen Sensor (O2)
+pH Sensor
+Gas Sensor
+Temperature and Humidity Sensor (DHT22)
+Motor for Aeration
+Arduino Uno
+Libraries: Adafruit_Sensor, DHT
+Libraries Installation:
+You will need to install the following libraries:
+
+Adafruit Unified Sensor Library
+DHT Sensor Library
+You can install these libraries from the Arduino Library Manager.
+
+Connections:
+DHT22: Data pin to digital pin 2
+Oxygen Sensor: Analog pin A0
+pH Sensor: Analog pin A1
+Gas Sensor: Analog pin A2
+Motor: Digital pin 3
